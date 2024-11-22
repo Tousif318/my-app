@@ -1,0 +1,18 @@
+.top{
+    margin: auto;
+   
+    display: flex;
+}
+.right{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.bn{
+    width: 20%;
+background-color:grey;
+border: 1px solid white;
+margin-top: 10px;
+justify-content: space-between;
+}

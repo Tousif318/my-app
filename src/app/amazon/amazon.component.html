@@ -1,0 +1,9 @@
+<div class="main">
+    <div class="sub" *ngFor="let amazon of amazon">
+        <img src="{{amazon.image}}" alt="" id="img">
+        <p id="rate">{{amazon.rating.rate}}</p>
+        <p class="cat">{{amazon.category}}</p>
+        <p style="color: blue;" class="tit">{{amazon.title}}</p>
+        <p> <span class="tag">Rs.{{amazon.price}}</span></p>
+    </div>
+</div>

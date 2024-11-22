@@ -1,0 +1,18 @@
+<div class="parent">
+    <div class="child" *ngFor="let weatherapp of weatherapp">
+        <h1>Weather in Hyderabad</h1>
+        <div class="sun"[ngClass]="{'blue':weatherapp.current_weather.temperature<0,
+        'green':weatherapp.current_weather.temperature<30,
+        'red':weatherapp.current_weather.temperature<35,
+        'orange':weatherapp.current_weather.temperature>35}"></div>
+
+        <h1 class="temp">{{weatherapp.current_weather.temperature}} <sup>0</sup>C</h1>
+        <p>wind Speed:{{weatherapp.current_weather.windspeed}}km/h</p>
+        <p>Wind Direction:{{weatherapp.current_weather.winddirection}} <sup>0</sup>(NE)</p>
+        <p class= "dn">{{weatherapp.current_weather.is_day == 1? 'DayTime':'NightTime' }}</p>
+        <p>{{weatherapp.current_weather.time | date:'medium':'GMT+5.30'}}</p>
+        
+
+
+    </div>
+</div>

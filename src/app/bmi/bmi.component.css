@@ -1,0 +1,60 @@
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    /* padding-left: 100px;
+    padding-top: 100px; */
+}
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 10px;
+}
+
+.btm{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+   
+}
+.btl{
+    width: 48%;
+    height: 70%;
+    background-color: antiquewhite;
+    /* border: 2px solid gray; */
+    text-align: center;
+    justify-content: center; 
+
+}
+.he{
+    width: 300px;
+    margin-bottom: 30px;
+}
+.input{
+    width: 70%;
+}
+.btr{
+    width: 45%;
+    height: 70%;
+    /* border: 2px solid gray; */
+}
+
+button{
+    width: 200px;
+    background-color: blue;
+    border: 0;
+}
+/* .bdwn{
+    width: 80%;
+    height: 80%;
+} */

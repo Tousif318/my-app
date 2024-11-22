@@ -1,0 +1,17 @@
+.rec{
+    border: 1px solid white;
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 50px;
+}
+input{
+    margin-bottom: 10px;
+}
+button{
+    margin-bottom: 10px;
+    width: 190px;
+    background-color: blue;
+    color: white;
+    border: 1px solid grey;
+}

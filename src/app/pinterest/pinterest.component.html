@@ -1,0 +1,7 @@
+<div class="parent">
+    <div class="child" *ngFor="let pinterest of pinterests">
+        <img src="{{pinterest.download_url}}" alt="" class="img">
+        <P class="author">{{pinterest.author}}</P>
+        <a href="{{pinterest.download_url}}" target="_blank" class="button">download</a>
+    </div>
+</div>

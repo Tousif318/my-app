@@ -1,0 +1,14 @@
+.Rad{
+    border: 1px solid white;
+    width: 220px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 250px;
+    
+}
+button{
+    border: 1px solid gray;
+    width: 190px;
+    margin-top: 10px;
+    background-color: aqua;
+}

@@ -1,0 +1,7 @@
+<p>mail works!</p>
+<p *ngFor="let mail of mail" [ngClass]="{'lite':mail.completed==true, 'thick':mail.completed==false,}">
+    <!-- {{mail.userId}} -->
+    {{mail.id}} 
+    {{mail.title}}
+    <!-- {{mail.completed}} -->
+</p>
