@@ -21,6 +21,7 @@ export class CreateAccountComponent {
   );
 
   Submit(){
+
     console.log(this.accountform);
     this._accountservice.createaccount(this.accountform.value).subscribe(
       (data:any)=>{

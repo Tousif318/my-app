@@ -24,6 +24,7 @@ import { ImdbComponent } from './imdb/imdb.component';
 import { CreateVehicleComponent } from './create-vehicle/create-vehicle.component';
 import { PokemonComponent } from './pokemon/pokemon.component';
 import { CreateAccountComponent } from './create-account/create-account.component';
+import { CreateUserComponent } from './create-user/create-user.component';
 const routes: Routes = [
   {path:'login',component:LoginComponent},
   {path:'dashboard',component:DashboardComponent,children:[
@@ -47,7 +48,8 @@ const routes: Routes = [
     {path:'imdb',component:ImdbComponent},
     {path:'create-vehicle',component:CreateVehicleComponent},
     {path:'pokemon',component:PokemonComponent},
-    {path:'crate-account',component:CreateAccountComponent}
+    {path:'createaccount',component:CreateAccountComponent},
+    {path:'create-user',component:CreateUserComponent}
   ]},
   {path:'',component:LoginComponent},
   {path:'**', component:PageNotFoundComponent}

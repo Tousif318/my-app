@@ -29,6 +29,7 @@ import { ImdbComponent } from './imdb/imdb.component';
 import { CreateVehicleComponent } from './create-vehicle/create-vehicle.component';
 import { PokemonComponent } from './pokemon/pokemon.component';
 import { CreateAccountComponent } from './create-account/create-account.component';
+import { CreateUserComponent } from './create-user/create-user.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -55,7 +56,8 @@ import { CreateAccountComponent } from './create-account/create-account.componen
     ImdbComponent,
     CreateVehicleComponent,
     PokemonComponent,
-    CreateAccountComponent
+    CreateAccountComponent,
+    CreateUserComponent
   ],
   imports: [
     BrowserModule,
